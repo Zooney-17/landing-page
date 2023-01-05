@@ -6,7 +6,6 @@ body {
 
 .header {
     background: #1f2937;
-    border: 2px solid red;
     display: flex;
     justify-content: space-around;
 }
@@ -24,6 +23,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 24px;
+    font-weight: bold;
     color: #f9faf8;
 }
 
@@ -37,4 +37,25 @@ ul {
 a {
     color: #e5e7eb;
     text-decoration: none;
+}
+
+.first {
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+button {
+    background-color: #3882f6;
 }
