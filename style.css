@@ -58,4 +58,43 @@ a {
 
 button {
     background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.second {
+}
+
+
+.toast {
+    border: 2px solid red;
+}
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.random {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third {
+    background-color: #e5e7eb;
+}
+
+p {
+    font-size: 36px;
+}
+
+.again {
 }
