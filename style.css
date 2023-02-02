@@ -45,22 +45,36 @@ a {
     background: #1f2937;
     display: flex;
     justify-content: center;
+    gap: 50px;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
 }
 
 .awesome {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+    margin: 0;
 }
 
 .subtext {
     font-size: 18px;
-    color: #e5e7eb
+    color: #e5e7eb;
+    margin-bottom: 10px;
 }
 
-button {
+.sign-up button {
     background-color: #3882f6;
     color: #f9faf8;
+    border-radius: 5px;
+    border: #3882f6 1px solid;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 25px;
 }
 
 .box {
@@ -131,13 +145,14 @@ button {
     font-style: italic;
     font-size: 36px;
     color: #1F2937;
+    margin-bottom: 0px;
 }
 
 .thor {
     font-weight: 600;
     font-size: 26px;
     align-self: flex-end;
-    margin-top: -30px;
+    margin-top: 0px;
 }
 
 .footer {
